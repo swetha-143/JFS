@@ -9,17 +9,30 @@
     font-size: 1rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    filter: drop-shadow(4px 4px 4px rgb(212, 212, 80));
-    color:yellow;
+    filter: drop-shadow(4px 4px 4px rgb(8, 174, 25));
+    color:rgb(0, 255, 21);
 }
 .banner{
     background-image: url("https://occ-0-1009-448.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot");
-    background-size:cover;
-    background-position:center center;
-    max-width:100%; 
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%; 
     background-repeat: no-repeat;
     height: 600px;  
 }
 .posters{
-    display: flex;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin: 0% 0.5%;
+    border-radius:  0.4%;
+}
+.h3{
+    text-align: center;
 }
