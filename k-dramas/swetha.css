@@ -1,0 +1,19 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #111111;
+    color: #f2f2fb;
+}
+.banner{
+   /* background:linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,-25%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)20%); */
+   background:linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,-25%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)20%),url("https://occ-0-1009-448.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSmIPuDfRvSTzSF9dtUWSatu9HTk-CVv5spP2H8DTRhz0uZ_2rzFz7TbbcykwhxASL9gL6TCjVRK7Oy7GfE4Ppwo5vqSh8OEA2dZ.jpg?r=902");
+   background-size: cover;
+   background-position: center center;
+   max-width: 100%; 
+   background-repeat: no-repeat;
+   height: 900px;  
+
+}
