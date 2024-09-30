@@ -1,0 +1,47 @@
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.hello{
+    background-color: red;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    animation: swetha 10s infinite ;
+    position: relative;
+}
+
+@keyframes swetha{
+    0%{
+        top: 0px;
+        left:0px;
+        background-color: rgb(150, 43, 174);
+        }
+    25%{
+        top: 0px;
+        left:1450px;
+        background-color: rgb(70, 27, 171);
+    }
+    50%{
+        top: 720px;
+        left:1450px;
+        
+        background-color: rgb(46, 193, 32);
+    }
+    75%{
+        left:0px;
+        top:720px;
+        background-color: rgb(45, 179, 212);
+    }
+    100%{
+        top: 0%;
+        left:0%;
+        background-color: red;
+    }
+}
