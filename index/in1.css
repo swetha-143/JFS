@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.square{
+    height:350px;
+    width: 350px;
+    background-color: transparent;
+    border: 2px solid rgb(50, 25, 218); 
+    animation: squ 2s linear infinite ;
+  
+}
+.heart{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -10px 20px 90px red;
+    animation: he 1s linear infinite;
+    left:44% ;
+    top:45%; 
+    z-index: 1;
+}
+
+.heart::before{
+    height: 50px;
+    width: 50px;
+    background-color:red;
+    top: -50%;
+    position:absolute ;
+    content: '';
+    border-radius: 100px;
+}
+.heart::after{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    right: -50%;
+    position:absolute ;
+    content: '';
+    border-radius: 100px;
+}
+@keyframes he {
+    0%{
+        transform: rotate(-45deg) scale(1.09);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.02);
+    }
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    animation: cir 2s linear infinite;
+    position: relative;
+    top:-25px;
+    left: 25px;
+
+    
+   
+
+}
+
+@keyframes cir{
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360);
+        background-color: skyblue;
+         transition: 2s;
+    }
+}
+
+
